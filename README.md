@@ -1,8 +1,8 @@
-# khan-code-feedback
+<<<<<<< HEAD
+# textParser
 
 Henry (Fangyi) Li
 
-Khan Academy Project-Based Interview
 
 Acorn vs Esprima?:
 
@@ -21,3 +21,6 @@ The API is largely contained in two (mostly identical) files: parseTextAcorn.js 
 ‘You are missing a ForStatement enclosing a ForStatement enclosing a IfStatement enclosing a ForStatement enclosing a ForStatement enclosing a IfStatement, followed by a IfStatement.’ 
 
 if the structure is not found in the code. But then again, perhaps any code containing as arcane a nested for loop is simply intrinsically awkward.
+=======
+# textParser
+>>>>>>> 386ea0508a453caa56cc81e959ab69319f69b82e

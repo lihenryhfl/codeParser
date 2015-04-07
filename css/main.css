@@ -1,0 +1,10 @@
+div#infodiv {
+    background-color: #f8f8f8;
+    padding-left: 20px;
+    padding-top: 13px;
+    overflow: auto;
+}
+
+li.active {
+    cursor: pointer;
+}

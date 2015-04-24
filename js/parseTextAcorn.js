@@ -176,6 +176,7 @@ define(['jQuery', 'acornLoose', 'underscore'], function ($, acorn, _) {
         // using acorn's loose interpreter, which means that incomplete structures will also be accepted
         // e.g. simply 'for for if for for if' will fulfill the structure requirements of the default parameters (in main1.js)
         // these errors should be picked up by a more robust code parser
+        console.log(acorn);
         syntax = acorn.parse_dammit(code, {});
         
         traverse(syntax, [], function (node) {

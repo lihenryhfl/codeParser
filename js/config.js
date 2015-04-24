@@ -17,8 +17,7 @@ requirejs.config({
         "jQueryTimer": "jquery.timer",
         "bootstrap": "bootstrap.min",
         "underscore": "underscore-min",
-        "acorn": "acorn/acorn",
-        "acornLoose": "acorn/acorn_loose",
+        "acornLoose": "acorn/src/loose/acorn_loose",
         "benchmark": "benchmark",
         "jquerystring": "test/jquery-string"
     },

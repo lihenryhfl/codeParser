@@ -1,4 +1,4 @@
-# textParser
+# codeParser
 
 Acorn vs Esprima?:
 

@@ -1,8 +1,5 @@
 # textParser
 
-Henry (Fangyi) Li
-
-
 Acorn vs Esprima?:
 
 In terms of performance, Esprima and Acorn compete head-to-head, and are much closer to each other than they are to other ECMA parsers, such as UglifyJS2 or Traceur (as can be seen on Esprima’s comparison table: http://esprima.org/test/compare.html). The difference in the benchmark was quite negligible when I ran it in my Safari browser, however, so there was no apparent choice. But after some background research, I realized that Acorn had been, in fact, designed solely to build on and surpass Esprima; it was, if you will, another programmer’s algorithmic one-up of the Esprima text parser.

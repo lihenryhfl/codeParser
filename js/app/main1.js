@@ -27,7 +27,7 @@ define(['domReady', 'jQuery', 'jQueryTimer', 'parseTextAcorn', 'parseTextEsprima
         ]
     };
     
-    var parseText = parseTextAcorn;
+    var parseText = parseTextEsprima;
     
     function callParser(editor, timer) {
         var report, text;
@@ -45,6 +45,7 @@ define(['domReady', 'jQuery', 'jQueryTimer', 'parseTextAcorn', 'parseTextEsprima
             lineNumbers: true,
             mode: "javascript"
         });
+        editor.getDoc().setValue('var i=0;\nfor(i=0; i<10; i++) {\n  if(i<5) {\n    i++;  \n  }\n}');
         // instantiate timer that begins countdown after the last keypress is registered
         var timer = $.timer(function() {
             callParser(editor, timer);
